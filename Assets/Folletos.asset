@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Folletos
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-46.0,"y":144.4716},"zoom":1.0,"elements":[{"coroutine":true,"defaultValues":{"interactable":null},"position":{"x":-371.0,"y":-167.0},"guid":"662fef28-c701-4359-a716-5d7372dcfee6","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.SpatialInteractableOnInteract","$id":"9"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Folleto","$type":"System.String"},"object":null},"position":{"x":-397.0,"y":114.0},"guid":"f277cf7a-4222-44b8-ab76-6e560b133363","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"11"},{"defaultValues":{"equip":{"$content":true,"$type":"System.Boolean"},"clearSlot":{"$content":true,"$type":"System.Boolean"},"optionalTag":{"$content":"","$type":"System.String"}},"position":{"x":-84.0,"y":-114.0},"guid":"956e86c9-bad3-4191-a5d7-8680d5cee0dd","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.EquipAvatarAttachmentPackageNode","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"inputTrigger","guid":"2616b1a0-867c-404c-8761-6c0e3d103ef5","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"sku","guid":"a60b2199-898c-424f-9c2c-9dde824f57e9","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
